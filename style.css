@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background: url(./img/Design\ sem\ nome.png) no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: monospace;
+  color: blue;
+  font-size: 45px;
+}
+
+h2 {
+  font-family: monospace;
+  color: rgb(63, 63, 228);
+}
+
+#addColor {
+  padding-top: 90px;
+}
+
+.title {
+  text-align: center;
+}
+
+#color-palette {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.color,
+.selected {
+  display: inline-block;
+  border: 1px black solid;
+  width: 40px;
+  height: 40px;
+}
+
+#black {
+  background-color: black;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#green {
+  background-color: green;
+}
+
+#orange {
+  background-color: orange;
+}
+
+.button {
+  color: blue;
+  background-color: white;
+  border-radius: 10%;
+  font-family: monospace;
+  font-size: 15px;
+  border-bottom-color: blue;
+}
+
+#botoes {
+  margin-top: 20px;
+}
+
+/* quadrado de pixels  */
+.boxSquare {
+  margin-left: -34px;
+  padding: 60px;
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  margin: 0px;
+}
+
+/* fim quadrado de pixels */
+
+#square {
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  list-style-type: none;
+  background-color: white;
+  margin: -2px;
+}
